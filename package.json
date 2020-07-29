@@ -1,0 +1,14 @@
+{
+  "name": "postman_api",
+  "version": "1.0.0",
+  "description": "this is a postman test cases",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/jsonplaceholder.com.postman_collection.json"
+  },
+  "author": "gufran",
+  "license": "ISC"
+}
